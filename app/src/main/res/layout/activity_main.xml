@@ -13,5 +13,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:text="如果看不到悬浮窗：
+        小米的安全中心---》授权设置----》浮窗----》允许 ok
+
+
+        启动后按HOME键返回桌面即可。"/>
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#1C1C1C"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="退出"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36dp"/>
+
 </RelativeLayout>
