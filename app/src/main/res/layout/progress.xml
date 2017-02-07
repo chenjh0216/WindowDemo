@@ -5,28 +5,29 @@
                 android:orientation="vertical">
 
     <ProgressBar
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:progressTint="#FF0000"
-        android:progressBackgroundTint="#FFFFFF"
         android:layout_height="10dp"
         android:layout_centerVertical="true"
         android:layout_gravity="center_horizontal"
-        android:progress="50"/>
+        android:progress="50"
+        android:progressBackgroundTint="#FFFFFF"
+        android:progressTint="#FF0000"
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:textColor="#FF0000"
-        android:textSize="24dp"
         android:layout_marginRight="10dp"
         android:layout_toLeftOf="@+id/tv"
         android:gravity="center"
-        android:text="0"/>
+        android:text="0"
+        android:textColor="#FF0000"
+        android:textSize="24dp"/>
 
     <TextView
         android:id="@+id/tv"
