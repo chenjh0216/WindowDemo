@@ -1,10 +1,10 @@
 package app.jyh.com.windowdemo;
 
+import android.app.Activity;
 import android.app.Service;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Vibrator;
-import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -22,7 +22,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
 	private WindowManager.LayoutParams param;
 	private WindowManager mWindowManager;
